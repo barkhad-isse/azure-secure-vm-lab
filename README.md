@@ -21,17 +21,9 @@ This project demonstrates how to securely deploy, monitor, and audit a Linux vir
 2. Added a custom inbound rule to allow SSH (TCP port 22) only from my public IP address.
 3. Associated the NSG with the VM’s network interface.
 
-![NSG overview](screenshots/nsg_overview.png)
-
-![Custom inbound rules](screenshots/nsg_inbound_custom_rules.png)
-![Network interface with NSG](screenshots/network_settings_after_nsg.png)
-*NSG overview: default inbound and outbound rules after the NSG is created.*
 
 
-*Custom inbound rules: inbound rule allowing SSH (port 22) only from my public IP.*
 
-
-*Network interface with NSG: network interface associated with the NSG, confirming enforcement.*
 
 
 ## Monitoring & Logging
@@ -40,15 +32,10 @@ This project demonstrates how to securely deploy, monitor, and audit a Linux vir
 2. Created a Data Collection Rule (`dcr-securevm`) to install the Azure Monitor Agent on the VM and send performance counters and logs to the workspace.
 3. Verified that data ingestion started via Azure Monitor.
 
-![Data collection rule – collect and deliver](screenshots/dcr_collect_deliver.png)
-![Data collection rule – review and create](screenshots/dcr_review_create.png)
-
-*Data collection rule – collect and deliver: selecting performance counters and routing them to Log Analytics.*
 
 
-*Data collection rule – review and create: summary of the Data Collection Rule before deployment.*
 
-VM.*
+
 
 ## Defender for Cloud
 
@@ -56,11 +43,7 @@ VM.*
 2. Confirmed that the VM is protected and monitored for vulnerabilities and threats.
 3. Reviewed Defender recommendations, such as enabling disk encryption.
 
-![Defender plans](screenshots/defender_plans.png)
-![Disk encryption recommendation](screenshots/defender_recommendation_disk_encryption.png)
-*Defender plans: enabling Microsoft Defender for Servers Plan 1 and showing monitoring coverage.*
 
-*Disk encryption recommendation: Defender's suggestion to enable Azure Disk Encryption or EncryptionAtHost for the VM.*
 
 
 ## Mock Security Audit
