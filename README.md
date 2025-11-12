@@ -22,6 +22,7 @@ This project demonstrates how to securely deploy, monitor, and audit a Linux vir
 3. Associated the NSG with the VM’s network interface.
 
 ![NSG overview](screenshots/nsg_overview.png)
+
 ![Custom inbound rules](screenshots/nsg_inbound_custom_rules.png)
 ![Network interface with NSG](screenshots/network_settings_after_nsg.png)
 *NSG overview: default inbound and outbound rules after the NSG is created.*
@@ -47,9 +48,7 @@ This project demonstrates how to securely deploy, monitor, and audit a Linux vir
 
 *Data collection rule – review and create: summary of the Data Collection Rule before deployment.*
 
-
-
-*Disk encryption recommendation: Defender's suggestion to enable Azure Disk Encryption or EncryptionAtHost for the VM.*
+VM.*
 
 ## Defender for Cloud
 
