@@ -1,7 +1,8 @@
 
 
 ## NSG Deployment Complete
-<img width="974" height="194" alt="image" src="https://github.com/user-attachments/assets/7be66ae6-ffdc-435d-bbb3-f87a5b31b5ac" />
+<img width="1571" height="309" alt="Screenshot 2025-11-12 203107" src="https://github.com/user-attachments/assets/341306fd-c39e-4a4f-b44d-7117b0fb6dd6" />
+
 - Shows a completed deployment of the Network Security Group nsg-securevm. The overview confirms the deployment succeeded, with status “OK,” and displays details such as subscription, resource group, and correlation ID.
 
   
