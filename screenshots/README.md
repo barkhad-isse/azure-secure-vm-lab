@@ -8,10 +8,12 @@
 
 ## Inbound NSG Rules Configuration
 <img width="2047" height="406" alt="image" src="https://github.com/user-attachments/assets/e158d170-76ab-46e5-b25b-6c6be095d73b" />
+
 - Displays the configured inbound rules for nsg-securevm. A custom SSH rule allows port 22 only from the administrator’s public IP. Default Azure rules-AllowVnetInBound, AllowAzureLoadBalancerInBound, and DenyAllInBound-are listed beneath it, establishing the final traffic evaluation order.
 
 ## Network Interface and NSG Overview
 <img width="2192" height="829" alt="Screenshot 2025-11-12 215613" src="https://github.com/user-attachments/assets/aff8da68-ee14-4517-a9a3-05080d540f0c" />
+
 - The VM’s network interface with the attached Network Security Group. The active inbound rules are visible, including the SSH rule, the virtual network rule, the load balancer rule, and the deny-all rule. This confirms that the VM is using the intended NSG and that the security rules are being applied correctly to the network interface.
 
 ## Log Analytics Workspace Creation Review
@@ -33,11 +35,13 @@
 
 ## Data Collection Rule Overview
 <img width="734" height="985" alt="Screenshot 2025-11-12 225941" src="https://github.com/user-attachments/assets/eaaa4615-55e7-46d0-8b6b-828f4eac7497" />
+
 - Shows the overview of the dcr-securevm data collection rule after deployment. The rule is linked to the rg-securevm-swiss resource group and uses the Azure for Students subscription. One data source and one connected resource are active, and the platform is registered as Linux. All essential identifiers, such as the immutable ID and subscription details, are listed to confirm that the rule is properly created and recognized by Azure Monitor.
 
 
 ## Defender for Cloud Plan Configuration
 <img width="1995" height="541" alt="Screenshot 2025-11-12 230544" src="https://github.com/user-attachments/assets/62430db5-1d4a-4f37-90ee-cfd211ce0848" />
+
 - Shows the configuration of Microsoft Defender for Cloud across the subscription. Foundational CSPM is active with full monitoring, while Defender CSPM is enabled for enhanced security posture management. Under Cloud Workload Protection, the Servers plan is turned on for one virtual machine, providing full monitoring coverage. Other workload protections such as App Service, Databases, Storage, and Containers remain available but disabled, allowing selective activation based on project needs.
 
 ## Defender for Cloud Security Recommendations
