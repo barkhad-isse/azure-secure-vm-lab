@@ -31,23 +31,24 @@
 - The configuration step where data sources are selected and mapped to their destinations. Performance counters have been added as the chosen data source, and the data is set to be sent to Azure Monitor Logs. This step defines what the rule will collect from the virtual machine and where the collected data will be stored for analysis. 
 
 
-##Data Collection Rule Overview
+## Data Collection Rule Overview
 <img width="734" height="985" alt="Screenshot 2025-11-12 225941" src="https://github.com/user-attachments/assets/eaaa4615-55e7-46d0-8b6b-828f4eac7497" />
 
 - Shows the overview of the dcr-securevm data collection rule after deployment. The rule is linked to the rg-securevm-swiss resource group and uses the Azure for Students subscription. One data source and one connected resource are active, and the platform is registered as Linux. All essential identifiers, such as the immutable ID and subscription details, are listed to confirm that the rule is properly created and recognized by Azure Monitor.
 
 
-##
+## Defender for Cloud Plan Configuration
 <img width="1995" height="541" alt="Screenshot 2025-11-12 230544" src="https://github.com/user-attachments/assets/62430db5-1d4a-4f37-90ee-cfd211ce0848" />
+Shows the configuration of Microsoft Defender for Cloud across the subscription. Foundational CSPM is active with full monitoring, while Defender CSPM is enabled for enhanced security posture management. Under Cloud Workload Protection, the Servers plan is turned on for one virtual machine, providing full monitoring coverage. Other workload protections such as App Service, Databases, Storage, and Containers remain available but disabled, allowing selective activation based on project needs.
 
--
+## Defender for Cloud Security Recommendations
+<img width="2536" height="1058" alt="Screenshot 2025-11-12 233302" src="https://github.com/user-attachments/assets/cd6558a7-a536-4d0f-ad07-ce589cebafc2" />
 
+- Shows a list of security recommendations generated for the environment by Defender for Cloud. Each recommendation highlights a potential security improvement, such as enabling backup, configuring endpoint protection, or enforcing encryption. The panel includes the risk level, affected resource, attack path presence, and current status. None of the recommendations are assigned yet, allowing them to be reviewed and prioritized based on security needs.
 
+## Virtual Machine Resource Health - Security Recommendations
+<img width="2446" height="615" alt="Screenshot 2025-11-12 234305" src="https://github.com/user-attachments/assets/177f36bf-6791-45ee-9a14-6656261a9f75" />
 
-#
-
--
-
-
-
-
+- Displays the security health status specifically for the virtual machine securevm01.
+The view lists all active issues marked as unhealthy, such as missing disk encryption, missing guest configuration settings, lack of backup, and host-level attestation.
+Each recommendation includes a severity rating, helping prioritize which hardening actions should be applied first to strengthen the VM’s security.
