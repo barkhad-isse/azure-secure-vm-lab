@@ -1,9 +1,10 @@
-# Screenshot Descriptions
 
-This document provides descriptions for each screenshot used in the Azure Secure VM Lab project. When adding images to the `screenshots` folder, ensure the file names match those referenced below.
 
-- **nsg_overview.png**  
-  Network Security Group overview showing the default inbound and outbound rules after the NSG is created.
+## NSG Deployment Complete
+<img width="974" height="194" alt="image" src="https://github.com/user-attachments/assets/7be66ae6-ffdc-435d-bbb3-f87a5b31b5ac" />
+- Shows a completed deployment of the Network Security Group nsg-securevm. The overview confirms the deployment succeeded, with status “OK,” and displays details such as subscription, resource group, and correlation ID.
+
+  
 
 - **nsg_inbound_custom_rules.png**  
   Custom inbound security rules for the NSG, including the SSH rule that allows TCP port 22 only from your public IP address.
@@ -23,4 +24,4 @@ This document provides descriptions for each screenshot used in the Azure Secure
 - **defender_recommendation_disk_encryption.png**  
   Recommendation detail from Defender for Cloud suggesting to enable Azure Disk Encryption or EncryptionAtHost for the VM.
 
-If you capture additional screenshots, follow this pattern: use a descriptive file name and provide a concise explanation of what the screenshot shows and its relevance to the project.
+
