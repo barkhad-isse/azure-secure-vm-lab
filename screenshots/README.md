@@ -15,17 +15,14 @@
 <img width="2192" height="829" alt="Screenshot 2025-11-12 215613" src="https://github.com/user-attachments/assets/aff8da68-ee14-4517-a9a3-05080d540f0c" />
 - Shows the VM’s network interface with the attached Network Security Group. The active inbound rules are visible, including the SSH rule, the virtual network rule, the load balancer rule, and the deny-all rule. This confirms that the VM is using the intended NSG and that the security rules are being applied correctly to the network interface.
 
-##
-  
-- 
+## Log Analytics Workspace Creation Review
+  <img width="732" height="619" alt="Screenshot 2025-11-12 221540" src="https://github.com/user-attachments/assets/9c5b4e27-c624-4d8d-9bcf-b5402a3f43b1" />
 
-- **dcr_review_create.png**  
-  Data Collection Rule page during the "review + create" step, summarizing the configuration before deployment.
+- Shows the final review step before creating the Log Analytics workspace. The configuration lists the chosen subscription, resource group, workspace name, region, and pricing tier. Validation has passed, confirming that the workspace settings are correct and ready for deployment.
 
-- **defender_plans.png**  
-  Microsoft Defender for Cloud “Defender plans” view showing Plan 1 enabled for servers and full monitoring coverage.
+## Log Analytics Workspace
+<img width="1833" height="380" alt="Screenshot 2025-11-12 222102" src="https://github.com/user-attachments/assets/f6291b0d-b431-41ae-b768-0a54eb7a116d" />
 
-- **defender_recommendation_disk_encryption.png**  
-  Recommendation detail from Defender for Cloud suggesting to enable Azure Disk Encryption or EncryptionAtHost for the VM.
+- the main overview page after the Log Analytics workspace has been deployed. The workspace status is active, with details such as the resource group, region, subscription, and pricing tier clearly listed. Operational status is marked as healthy, confirming that the workspace is running without issues. Azure Monitor also displays a notice recommending an upgrade to AMA for improved data collection.
 
 
