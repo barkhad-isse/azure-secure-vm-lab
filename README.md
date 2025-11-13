@@ -13,7 +13,7 @@ This project demonstrates how to securely deploy, monitor, and audit a Linux vir
 - **Public Inbound Ports:** None (restricted by NSG)
 - **Disk Type:** Standard HDD
 - **Boot Diagnostics:** Enabled
-- **Auto-Shutdown:** Enabled (19:00)
+
 
 ## Network Security Configuration
 
