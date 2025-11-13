@@ -7,14 +7,18 @@
 
   
 
-- **nsg_inbound_custom_rules.png**  
-  Custom inbound security rules for the NSG, including the SSH rule that allows TCP port 22 only from your public IP address.
+## Inbound NSG Rules Configuration
+<img width="2047" height="406" alt="image" src="https://github.com/user-attachments/assets/e158d170-76ab-46e5-b25b-6c6be095d73b" />
+- Displays the configured inbound rules for nsg-securevm. A custom SSH rule allows port 22 only from the administrator’s public IP. Default Azure rules-AllowVnetInBound, AllowAzureLoadBalancerInBound, and DenyAllInBound—are listed beneath it, establishing the final traffic evaluation order.
 
-- **network_settings_after_nsg.png**  
-  The network interface overview where the NSG is associated with the VM's network interface, confirming enforcement of security rules.
+## Network Interface and NSG Overview
+<img width="975" height="380" alt="image" src="https://github.com/user-attachments/assets/61c58e95-8a32-4c80-848f-9742d0fad72b" />
 
-- **dcr_collect_deliver.png**  
-  Data Collection Rule configuration page in the "collect and deliver" step, selecting performance counters and routing them to Log Analytics.
+- Shows the VM’s network interface with the attached Network Security Group. The active inbound rules are visible, including the SSH rule, the virtual network rule, the load balancer rule, and the deny-all rule. This confirms that the VM is using the intended NSG and that the security rules are being applied correctly to the network interface.
+
+##
+  
+- Shows the VM’s network interface with the attached Network Security Group. The active inbound rules are visible, including the SSH rule, the virtual network rule, the load balancer rule, and the deny-all rule. This confirms that the VM is using the intended NSG and that the security rules are being applied correctly to the network interface.
 
 - **dcr_review_create.png**  
   Data Collection Rule page during the "review + create" step, summarizing the configuration before deployment.
