@@ -39,7 +39,7 @@ This project demonstrates how to securely deploy, monitor, and audit a Linux vir
 
 ## Defender for Cloud
 
-1. Enabled Microsoft Defender for Servers (Plan 1) in Azure Defender for Cloud.
+1. Enabled Microsoft Defender for Servers in Azure Defender for Cloud.
 2. Confirmed that the VM is protected and monitored for vulnerabilities and threats.
 3. Reviewed Defender recommendations, such as enabling disk encryption.
 
@@ -52,7 +52,7 @@ After all services were configured, I performed a brief security audit:
 
 - **Network Access:** SSH restricted to a single IP address via NSG.
 - **Monitoring:** Azure Monitor Agent installed; performance and syslog data collected in Log Analytics.
-- **Defender for Cloud:** Plan 1 enabled; no critical alerts were detected.
+- **Defender for Cloud:** enabled; no critical alerts were detected.
 - **Recommendations:** Non‑critical suggestion to enable disk encryption.
 
 ## Learnings
