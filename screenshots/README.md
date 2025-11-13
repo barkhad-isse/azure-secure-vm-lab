@@ -46,7 +46,7 @@
 - Shows the configuration of Microsoft Defender for Cloud across the subscription. Foundational CSPM is active with full monitoring, while Defender CSPM is enabled for enhanced security posture management. Under Cloud Workload Protection, the Servers plan is turned on for one virtual machine, providing full monitoring coverage. Other workload protections such as App Service, Databases, Storage, and Containers remain available but disabled, allowing selective activation based on project needs.
 
 ## Defender for Cloud Security Recommendations
-<img width="2536" height="1058" alt="Screenshot 2025-11-12 233302" src="https://github.com/user-attachments/assets/cd6558a7-a536-4d0f-ad07-ce589cebafc2" />
+<img width="2048" height="854" alt="36e826c6-57e3-4b63-97f2-97e70ca76fed" src="https://github.com/user-attachments/assets/05443d33-5378-465c-b6c6-13c7828da455" />
 
 - Shows a list of security recommendations generated for the environment by Defender for Cloud. Each recommendation highlights a potential security improvement, such as enabling backup, configuring endpoint protection, or enforcing encryption. The panel includes the risk level, affected resource, attack path presence, and current status. None of the recommendations are assigned yet, allowing them to be reviewed and prioritized based on security needs.
 
