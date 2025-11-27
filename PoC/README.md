@@ -1,4 +1,4 @@
-
+# PoC for the Azure Secure VM Lab
 
 ## NSG Deployment Complete
 <img width="1571" height="309" alt="Screenshot 2025-11-12 203107" src="https://github.com/user-attachments/assets/341306fd-c39e-4a4f-b44d-7117b0fb6dd6" />
